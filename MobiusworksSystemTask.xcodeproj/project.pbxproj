@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CB875E172590EE3300EEDB65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E162590EE3300EEDB65 /* AppDelegate.swift */; };
 		CB875E192590EE3300EEDB65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E182590EE3300EEDB65 /* SceneDelegate.swift */; };
-		CB875E1B2590EE3300EEDB65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E1A2590EE3300EEDB65 /* ViewController.swift */; };
 		CB875E1E2590EE3300EEDB65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB875E1C2590EE3300EEDB65 /* Main.storyboard */; };
 		CB875E202590EE3700EEDB65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB875E1F2590EE3700EEDB65 /* Assets.xcassets */; };
 		CB875E232590EE3700EEDB65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB875E212590EE3700EEDB65 /* LaunchScreen.storyboard */; };
+		CB875E362590EF7800EEDB65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E352590EF7800EEDB65 /* Constants.swift */; };
+		CB875E3A2590EFE000EEDB65 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E392590EFE000EEDB65 /* NewsViewModel.swift */; };
+		CB875E3E2590F04500EEDB65 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E3D2590F04500EEDB65 /* NewsViewController.swift */; };
+		CB875E422590F07200EEDB65 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E412590F07200EEDB65 /* NewsTableViewCell.swift */; };
+		CB875E4A2590F0FD00EEDB65 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E492590F0FD00EEDB65 /* Extension+UIViewController.swift */; };
+		CB875E4F2590F13F00EEDB65 /* NewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E4E2590F13F00EEDB65 /* NewsResponse.swift */; };
+		CB875E532590F16400EEDB65 /* HttpUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB875E522590F16400EEDB65 /* HttpUtility.swift */; };
+		F9E9FFD18EEA54840B726BD1 /* Pods_MobiusworksSystemTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83BE4AE4B2395B4F382EDFA /* Pods_MobiusworksSystemTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A57A65C688FD165BF906DD7 /* Pods-MobiusworksSystemTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusworksSystemTask.release.xcconfig"; path = "Target Support Files/Pods-MobiusworksSystemTask/Pods-MobiusworksSystemTask.release.xcconfig"; sourceTree = "<group>"; };
+		B83BE4AE4B2395B4F382EDFA /* Pods_MobiusworksSystemTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiusworksSystemTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB875E132590EE3300EEDB65 /* MobiusworksSystemTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiusworksSystemTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB875E162590EE3300EEDB65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB875E182590EE3300EEDB65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB875E1A2590EE3300EEDB65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CB875E1D2590EE3300EEDB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB875E1F2590EE3700EEDB65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB875E222590EE3700EEDB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB875E242590EE3700EEDB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB875E352590EF7800EEDB65 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CB875E392590EFE000EEDB65 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		CB875E3D2590F04500EEDB65 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		CB875E412590F07200EEDB65 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		CB875E492590F0FD00EEDB65 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		CB875E4E2590F13F00EEDB65 /* NewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponse.swift; sourceTree = "<group>"; };
+		CB875E522590F16400EEDB65 /* HttpUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
+		E5A81E425D6150E50078376C /* Pods-MobiusworksSystemTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiusworksSystemTask.debug.xcconfig"; path = "Target Support Files/Pods-MobiusworksSystemTask/Pods-MobiusworksSystemTask.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E9FFD18EEA54840B726BD1 /* Pods_MobiusworksSystemTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		953DDFE6CB6452B95B4C80C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5A81E425D6150E50078376C /* Pods-MobiusworksSystemTask.debug.xcconfig */,
+				4A57A65C688FD165BF906DD7 /* Pods-MobiusworksSystemTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAAAA9BC201EA027BADBD6FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B83BE4AE4B2395B4F382EDFA /* Pods_MobiusworksSystemTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CB875E0A2590EE3300EEDB65 = {
 			isa = PBXGroup;
 			children = (
 				CB875E152590EE3300EEDB65 /* MobiusworksSystemTask */,
 				CB875E142590EE3300EEDB65 /* Products */,
+				953DDFE6CB6452B95B4C80C4 /* Pods */,
+				BAAAA9BC201EA027BADBD6FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,93 @@
 		CB875E152590EE3300EEDB65 /* MobiusworksSystemTask */ = {
 			isa = PBXGroup;
 			children = (
+				CB875E332590EEF500EEDB65 /* Services */,
+				CB875E2F2590EEB700EEDB65 /* Models */,
+				CB875E312590EED600EEDB65 /* Views */,
+				CB875E322590EEDE00EEDB65 /* ViewModels */,
+				CB875E342590EF1500EEDB65 /* Constants */,
 				CB875E162590EE3300EEDB65 /* AppDelegate.swift */,
 				CB875E182590EE3300EEDB65 /* SceneDelegate.swift */,
-				CB875E1A2590EE3300EEDB65 /* ViewController.swift */,
 				CB875E1C2590EE3300EEDB65 /* Main.storyboard */,
 				CB875E1F2590EE3700EEDB65 /* Assets.xcassets */,
 				CB875E212590EE3700EEDB65 /* LaunchScreen.storyboard */,
 				CB875E242590EE3700EEDB65 /* Info.plist */,
 			);
 			path = MobiusworksSystemTask;
+			sourceTree = "<group>";
+		};
+		CB875E2F2590EEB700EEDB65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CB875E4D2590F11E00EEDB65 /* NewsModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB875E312590EED600EEDB65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB875E482590F0E700EEDB65 /* Extensions */,
+				CB875E3C2590F00F00EEDB65 /* NewsView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CB875E322590EEDE00EEDB65 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CB875E382590EFC200EEDB65 /* NewsViewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CB875E332590EEF500EEDB65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CB875E522590F16400EEDB65 /* HttpUtility.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CB875E342590EF1500EEDB65 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CB875E352590EF7800EEDB65 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CB875E382590EFC200EEDB65 /* NewsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB875E392590EFE000EEDB65 /* NewsViewModel.swift */,
+			);
+			path = NewsViewModel;
+			sourceTree = "<group>";
+		};
+		CB875E3C2590F00F00EEDB65 /* NewsView */ = {
+			isa = PBXGroup;
+			children = (
+				CB875E3D2590F04500EEDB65 /* NewsViewController.swift */,
+				CB875E412590F07200EEDB65 /* NewsTableViewCell.swift */,
+			);
+			path = NewsView;
+			sourceTree = "<group>";
+		};
+		CB875E482590F0E700EEDB65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CB875E492590F0FD00EEDB65 /* Extension+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CB875E4D2590F11E00EEDB65 /* NewsModels */ = {
+			isa = PBXGroup;
+			children = (
+				CB875E4E2590F13F00EEDB65 /* NewsResponse.swift */,
+			);
+			path = NewsModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB875E272590EE3700EEDB65 /* Build configuration list for PBXNativeTarget "MobiusworksSystemTask" */;
 			buildPhases = (
+				3CB0A383621849DB9FB9B9D8 /* [CP] Check Pods Manifest.lock */,
 				CB875E0F2590EE3300EEDB65 /* Sources */,
 				CB875E102590EE3300EEDB65 /* Frameworks */,
 				CB875E112590EE3300EEDB65 /* Resources */,
+				3887CE09A279B50C752F82BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +248,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3887CE09A279B50C752F82BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiusworksSystemTask/Pods-MobiusworksSystemTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobiusworksSystemTask/Pods-MobiusworksSystemTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobiusworksSystemTask/Pods-MobiusworksSystemTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CB0A383621849DB9FB9B9D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiusworksSystemTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB875E0F2590EE3300EEDB65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB875E1B2590EE3300EEDB65 /* ViewController.swift in Sources */,
+				CB875E3E2590F04500EEDB65 /* NewsViewController.swift in Sources */,
+				CB875E422590F07200EEDB65 /* NewsTableViewCell.swift in Sources */,
 				CB875E172590EE3300EEDB65 /* AppDelegate.swift in Sources */,
 				CB875E192590EE3300EEDB65 /* SceneDelegate.swift in Sources */,
+				CB875E4A2590F0FD00EEDB65 /* Extension+UIViewController.swift in Sources */,
+				CB875E4F2590F13F00EEDB65 /* NewsResponse.swift in Sources */,
+				CB875E362590EF7800EEDB65 /* Constants.swift in Sources */,
+				CB875E3A2590EFE000EEDB65 /* NewsViewModel.swift in Sources */,
+				CB875E532590F16400EEDB65 /* HttpUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +447,7 @@
 		};
 		CB875E282590EE3700EEDB65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A81E425D6150E50078376C /* Pods-MobiusworksSystemTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,12 +460,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qurix.com.MobiusworksSystemTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CB875E292590EE3700EEDB65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A57A65C688FD165BF906DD7 /* Pods-MobiusworksSystemTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,7 +479,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qurix.com.MobiusworksSystemTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
